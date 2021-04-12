@@ -6,10 +6,10 @@
 
 import re
 def encrypt(password):
-    # Makes an arrat of the password
+    # Makes an array of the password.
     a_password = list(password)
 
-    #Creates an empty variable to use it later
+    #Creates an empty variable to be used later.
     na_ecrypted = ""
 
     # Goes through the array depending on the length of the array then goes through each one
